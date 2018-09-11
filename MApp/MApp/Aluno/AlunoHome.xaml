@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MApp.Aluno.AlunoHome"
+             Title="Área Aluno"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+             <!--TEXTO BEM-VINDO-->
+            <Label Text="Bem-vindo(a) Aluno(a)!"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"
+                   BackgroundColor="White"
+                   Margin="0,20,0,30"
+                   TextColor="DeepSkyBlue"/>
+                
+                
+            <!--CALENDÁRIO-->
+               <StackLayout Margin="0,30,0,20">
+                    <Label Text="Calendário"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="CenterAndExpand"
+                           BackgroundColor="White"
+                           TextColor="DeepSkyBlue"/>
+
+                    <DatePicker MinimumDate="1/1/2000"
+                                MaximumDate="1/1/2030"
+                                HorizontalOptions="Center"/>
+                </StackLayout>
+
+            <!--BUTTON DISCIPLINAS-->
+            <Button Text="Disciplinas"
+                    Margin="60,0,60,0"
+                    BorderRadius="10"
+                    BorderWidth="5"
+                    BorderColor="DodgerBlue"
+                    BackgroundColor="White"
+                    Clicked="DisciplinasButton_Clicked"/>
+
+            <!--BUTTON AVISOS-->
+            <Button Text="Avisos"
+                    Margin="60,0,60,0"
+                    BorderRadius="10"
+                    BorderWidth="5"
+                    BorderColor="DodgerBlue"
+                    BackgroundColor="White"
+                    Clicked="AvisosButton_Clicked"/>
+            
+            <!--BOTAO ESTAGIOS-->
+            <Button Text="Estágios"
+                    Margin="60,0,60,0"
+                    BorderRadius="10"
+                    BorderWidth="5"
+                    BorderColor="DodgerBlue"
+                    BackgroundColor="WhiteSmoke"
+                    Clicked="EstagiosButton_Clicked"/>
+
+            <!--BUTOON PERFIL-->
+                <Button Text="Meu Perfil"
+                    BorderWidth="4"
+                    BorderColor="DodgerBlue"
+                    BorderRadius="10"
+                    Margin="60,0,60,0"
+                    BackgroundColor="White"
+                    Clicked="PerfilButton_Clicked"/> 
+
+
+                <!--BUTTON LOGOUT-->
+                <Button Text="Log out"
+                    Margin="80,50,80,25"
+                    BorderRadius="7"
+                    BackgroundColor="PaleVioletRed"
+                    Clicked="LogOutButton_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MApp.Guest.CondicoesPage"
+             Title="Condições de Acesso">
+               
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                
+                <!--DECRETO-->
+                <Label Margin="45,20,35,0"
+                       HorizontalOptions="Center"
+                       Text="As previstas pelo Decreto - Lei nº 296-A/98 de 25 de setembro, alterado pelos Decretos-Leis nºs 99/99 de 30 de março, 26/2003 de 7 de fevereiro, 76/2004 de 27 de março, 158/2004 de 30 de junho, 147-A/2006 de 31 de julho, 40/2007 de 20 de fevereiro e 45/2007 de 23 de fevereiro e pelo Decreto-Lei n.º 90/2008, de 30 de maio. "></Label>
+
+                <!--NOTA CANDIDATURA-->
+                <Label Text="Notas Necessárias para Candidatura"
+                       Margin="25,20,25,20"
+                       HorizontalOptions="Center"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       TextColor="DeepSkyBlue"/>
+
+                <!--TEXTO CANDIDATURA-->
+                <StackLayout Margin="40,0,40,20">
+                    <Label Text="Classificação final do Ensino Secundário 50%."
+                           HorizontalOptions="Center"
+                           FontSize="Small"
+                           TextColor="DeepSkyBlue"/>
+
+                    <Label Text="Elenco das provas de ingresso (exames nacionais das seguintes disciplinas):"
+                           HorizontalOptions="Center"
+                           FontSize="Small"
+                           TextColor="DeepSkyBlue"/>
+                </StackLayout>
+                <!--LISTA CANDIDATURA-->
+                <StackLayout Margin="65,0,65,0">
+
+                    <Label Text="10 Geometria Descritiva"/>
+
+                    <Label Text="16 Matemática"/>
+
+                    <Label Text="18 Português"/>
+
+                    <Label Text="(Deste elenco, basta uma prova)"/>
+                </StackLayout>
+
+                <!--CANDIDATURA DOCUMENTAÇÃO-->
+                <Label Text="Documentação Necesária para a Candidatura"
+                       Margin="25,0,25,20"
+                       HorizontalOptions="Center"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       TextColor="DeepSkyBlue"/>
+
+                <!--LISTA CANDIDATURA DOCUMENTAÇÃO-->
+                <StackLayout Margin="65,0,65,0">
+                    <Label Text="Boletim de Candidatura (de acordo com o regime de ingresso)"/>
+
+                    <Label Text="Documento de identificação pessoal"/>
+
+                    <Label Text="Fotocópia do Cartão de Contribuinte"/>
+                </StackLayout>
+
+                <!--MATRICULA DOCUMENTAÇÃO-->
+                <Label Text="Documentação Necesária para a Matricula"
+                       Margin="25,0,25,20"
+                       HorizontalOptions="Center"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       TextColor="DeepSkyBlue"/>
+
+                <!--LISTA MATRICULA DOCUMENTAÇÃO-->
+                <StackLayout Margin="65,0,65,20">
+                    <Label Text="Boletim de Vacinas (Anti-tetânica)"/>
+
+                    <Label Text="2 fotografias"/>
+
+                    <Label Text="Documento comprovativo de morada"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MApp.LoginPage"
+             Title="Login">
+    <ContentPage.Content>
+        <StackLayout Margin="40,50,40,0">
+            
+            <Entry x:Name="NumAluno" 
+                   Placeholder="Nº de Aluno"
+                   HorizontalOptions="FillAndExpand"/>
+            
+            <Entry x:Name="Pass" 
+                   Placeholder="Password"
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="Login"
+                    Clicked="AlunoButton_Clicked"/>
+
+            <Label Text="Esqueçeu-se da palavra-passe?"
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

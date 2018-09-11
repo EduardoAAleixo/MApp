@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MApp.Guest.SaidasPage"
+             Title="Saidas Profissionais">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Margin="30,20,30,10">
+                    <Label Text="No final do 1º ciclo de estudos da licenciatura em Multimédia,os estudantes ficam habilitados para o exercício das diversas novas profissões que garantem a articulação harmoniosa entre os domínios da Comunicação, da Informática e do Design."/>
+
+                    <Label Text="Estas profissões, em verdadeiro e imparável crescimento, são das mais importantes e essenciais no contexto da atual Sociedade do Conhecimento e da Informação."/>
+                </StackLayout>
+
+                <StackLayout Margin="65,0,65,20">
+                    <Label Text="Web designer."/>
+
+                    <Label Text="-Direção de projetos na área dos sistemas de informação, especificamente na produção e edição multimedia (internet, suportes digitais, publicações online, ...)"/>
+
+                    <Label Text="-Direção gráfica e de produção de imagem."/>
+
+                    <Label Text="-Centros de Informática e de Meios Audiovisuais"/>
+
+                    <Label Text="-Departamentos de edição de imagem e som em empresas produtoras de audiovisuais."/>
+
+                    <Label Text="-Departamentos de criação gráfica para écran (incluindo TV e vídeo)"/>
+
+                    <Label Text="-Departamentos criativos em empresas de publicidade."/>
+
+                    <Label Text="-Centros de Informática e de Meios Audiovisuais."/>
+
+                    <Label Text="-E-learning"/>
+
+                    <Label Text="-Ensino no domínio das TIC"/>
+
+                    <Label Text="-Profissionais liberais na área da comunicação multimédia."/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MApp.Aluno.AvisosPage"
+             Title="Avisos">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <!--LISTA AVISOS-->
+            <ListView x:Name="lavisos" 
+                      HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout>
+                                    <!--ASSUNTO-->
+                                    <StackLayout>
+                                        <Label Text="{Binding assunto}"/>
+                                    </StackLayout>
+                                    <!--DESCRIÇÃO-->
+                                    <StackLayout>
+                                        <Label Text="{Binding descricao}" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

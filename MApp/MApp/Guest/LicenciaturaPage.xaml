@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MApp.Guest.LicenciaturaPage"
+             Title="Licenciatura">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <!--TEXTO APRESENTAÇÃO-->
+                <StackLayout Margin="30,10,30,0">
+                    <Label Text="A licenciatura decorre durante 3 Anos, com possibilidade de estágio!"
+                       HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+
+                <!--BUTTON 1º-->
+                <Button Text="1º Ano"
+                        Margin="80,0,80,0"
+                        BackgroundColor="White"
+                        BorderRadius="10"
+                        BorderWidth="3"
+                        BorderColor="LightSkyBlue"
+                        TextColor="DeepSkyBlue"
+                        Clicked="PrimeiroButton_Clicked"/>
+
+                <!--BUTTON 2º-->
+                <Button Text="2º Ano"
+                        Margin="80,0,80,0"
+                        BackgroundColor="White"
+                        BorderRadius="10"
+                        BorderWidth="3"
+                        BorderColor="LightSkyBlue"
+                        TextColor="DeepSkyBlue"
+                        Clicked="SegundoButton_Clicked"/>
+
+                <!--BUTTON 3º-->
+                <Button Text="3º Ano"
+                        Margin="80,0,80,0"
+                        BackgroundColor="White"
+                        BorderRadius="10"
+                        BorderWidth="3"
+                        BorderColor="LightSkyBlue"
+                        TextColor="DeepSkyBlue"
+                        Clicked="TerceiroButton_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

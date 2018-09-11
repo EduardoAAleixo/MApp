@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MApp.Guest.GuestHome"
+             Title="Curso Multimédia">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--Intro
+                <Label Text="O Curso Multimédia"
+                       Margin="30,10,0,0"
+                       FontSize="Large"
+                       FontFamily="Bold"/> -->
+                
+                <!--IMAGEM-->
+                <StackLayout>
+                    <Image Source=""/>
+                </StackLayout>
+                
+                <!--INTRO TEXTO-->
+                <StackLayout Margin="45,20,45,0">
+                    <Label HorizontalOptions="Center"
+                           Text="O Curso Multimédia, é acreditado pela Agência de Avaliação e Acreditação do Ensino Superior por um período de 6 anos."/>
+
+                    <Label HorizontalTextAlignment="Center"
+                           Text="Decisão do Conselho de Administração da Agência de Avaliação e Acreditação do Ensino Superior"/>
+
+                    <Label HorizontalTextAlignment="Center"
+                           Margin="0,10,0,0"
+                           Text="O curso tem duração de 6 semestres, com varias cadeiras incrivéis, com matéria interessan-te!"/>
+                </StackLayout>
+                
+                <!--CONHECER-->
+                <Label Text="Fica a conheçer!"
+                       Margin="25,10,25,0"
+                       HorizontalOptions="Center"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       TextColor="DeepSkyBlue"/>
+
+                <!--BUTTON LICENCIATURA-->
+                <Button Text="Licenciatura"
+                        BackgroundColor="White"
+                        Margin="80,7,80,30"
+                        BorderRadius="10"
+                        BorderWidth="3"
+                        BorderColor="LightSkyBlue"
+                        TextColor="DeepSkyBlue"
+                        Clicked="Button_Clicked"/>
+
+                <!--OBJETIVOS TITULO-->
+        
+                <Label Text="Os nossos objectivos!"
+                       Margin="25,0,25,20"
+                       HorizontalOptions="Center"
+                       FontSize="Large"
+                       TextColor="DeepSkyBlue"/>
+                
+                
+                <!--OBJETIVOS-->
+                <StackLayout Margin="65,0,65,0">
+               
+                    <Label Text="- Interpretar e construir com rigor semântico enunciados orais e escritos adequados a diferentes suportes e contextos;"/>
+                
+                    <Label Text="- Desenvolver a capacidade de inovar, denotando criatividade, em diferentes situações de comunicação;"/>
+                
+                    <Label Text="- Exercitar a capacidade de crítica e de auto-crítica em situações profissionais;"/>
+                
+                    <Label Text="- Identificar noções de Sociedade da Informação, Globalização, Rede;"/>
+                
+                    <Label Text="- Conhecer a legislação que regulamenta a Comunicação;"/>
+
+                    <Label Text="- Reconhecer o processo da comunicação e os processos sensoriais inerentes a este;"/>
+                
+                    <Label Text="- Conhecer e aplicar ferramentas das Tecnologias da Informação e Comunicação;"/>
+                
+                    <Label Text="- Apreender técnicas e modelos em design gráfico e vectorial;"/>
+                
+                    <Label Text="- Conhecer e aplicar princípios técnicos específicos de Audiovisuais nas áreas de Produção e Realização;"/>
+                
+                    <Label Text="- Dominar princípios e técnicas de programação informática;conhecer princípios teóricos e aplicar técnicas de Fotografia;"/>
+                
+                    <Label Text="- Conhecer princípios teóricos e aplicar técnicas de Sonoplastia;"/>
+                
+                    <Label Text="- Produzir conteúdos Web;"/>
+                
+                    <Label Text="- Aplicar instrumentos de comunicação gráfica;"/>
+                
+                    <Label Text="- Apreender e aplicar conteúdos sobre cenografia virtual e animação;"/>
+                
+                    <Label Text="- Distinguir e aplicar técnicas do argumento/guionismo para Multimédia e Audiovisual;possuir conhecimentos sobre análise de sistemas e bases de dados;"/>
+                
+                    <Label Text="- Compreender distintas interações sócio-culturais no Ciberespaço;"/>
+                </StackLayout>
+                
+                <!--INTERESSADO-->
+                <Label Margin="20,40,20,30"
+                       HorizontalTextAlignment="Center"
+                       TextColor="LightSkyBlue"
+                       Text="Estás interessado em conhecer mais?"
+                       FontSize="Medium"/>
+
+                <!--TEXTO SAIDAS-->
+                <Label Text="Saidas Profissionais"
+                       Margin="25,0,25,0"
+                       HorizontalOptions="Center"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       TextColor="DeepSkyBlue"/>
+                
+                <!--BUTTON SAIDAS-->
+                <Button Text="Saidas"
+                        BackgroundColor="White"
+                        Margin="80,0,80,0"
+                        BorderRadius="10"
+                        BorderWidth="3"
+                        BorderColor="LightSkyBlue"
+                        TextColor="DeepSkyBlue"
+                        Clicked="SaidasButton_Clicked"/>
+
+                <!--CONHECER CONDIÇÕES ACESSO-->
+                <Label Margin="25,20,25,0"
+                       HorizontalOptions="Center"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       TextColor="DeepSkyBlue"
+                       Text="Condições de Acesso"/>
+
+                <!--BUTTON CONDIÇÕES-->
+                <Button Text="Condições"
+                        Margin="80,0,80,50"
+                        BackgroundColor="White"
+                        BorderRadius="10"
+                        BorderWidth="3"
+                        BorderColor="LightSkyBlue"
+                        TextColor="DeepSkyBlue"
+                        Clicked="CondicoesButton_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MApp"
+             x:Class="MApp.MainPage">
+
+    <StackLayout BackgroundColor="DeepSkyBlue">
+
+        <StackLayout Margin="0,20,0,0">
+            <!--BEM VINDO-->
+            <Label Text="Bem-Vindo"
+                   TextColor="white"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="à"
+                   TextColor="white"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Margin="0,1,0,0"/>
+
+            <Label Text="App Multimédia"
+                   TextColor="white"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+        <!--TEXTO 2-->
+        <Label Text="Como deseja entrar?"
+               TextColor="white"
+               FontSize="Small"
+               HorizontalOptions="CenterAndExpand" 
+               Margin="0,30,0,5"/>
+
+        <!--BUTTON LOGIN-->
+        <Button Text="Login"
+                TextColor="Blue"
+                BackgroundColor="White"
+                Margin="80,0,80,0"
+                BorderRadius="10"
+                BorderWidth="3"
+                Clicked="LoginButton_Clicked"/>
+
+        <!--BUTTON GUEST-->
+        <Button Text="Guest"
+                TextColor="Blue"
+                BackgroundColor="White"
+                Margin="80,20,80,20"
+                BorderRadius="10"
+                BorderWidth="3"
+                Clicked="GuestButton_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
